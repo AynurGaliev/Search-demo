@@ -12,6 +12,8 @@
 		A4165FA51DE8508600EE242A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4165FA31DE8508600EE242A /* Main.storyboard */; };
 		A4165FA71DE8508600EE242A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4165FA61DE8508600EE242A /* Assets.xcassets */; };
 		A4165FAA1DE8508600EE242A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4165FA81DE8508600EE242A /* LaunchScreen.storyboard */; };
+		A434D02E1DE87BE600E1D136 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434D02D1DE87BE600E1D136 /* Helpers.swift */; };
+		A4BED7F21DE9F8CB0000037B /* FSSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BED7F11DE9F8CB0000037B /* FSSearchController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A4165FA61DE8508600EE242A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4165FA91DE8508600EE242A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4165FAB1DE8508600EE242A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A434D02D1DE87BE600E1D136 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		A4BED7F11DE9F8CB0000037B /* FSSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSSearchController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				A4165FA61DE8508600EE242A /* Assets.xcassets */,
 				A4165FA81DE8508600EE242A /* LaunchScreen.storyboard */,
 				A4165FAB1DE8508600EE242A /* Info.plist */,
+				A434D02D1DE87BE600E1D136 /* Helpers.swift */,
+				A4BED7F11DE9F8CB0000037B /* FSSearchController.swift */,
 			);
 			path = "Search Demo";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4BED7F21DE9F8CB0000037B /* FSSearchController.swift in Sources */,
 				A4165FA21DE8508600EE242A /* ViewController.swift in Sources */,
+				A434D02E1DE87BE600E1D136 /* Helpers.swift in Sources */,
 				A4165FA01DE8508600EE242A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +269,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3EZN9G7JS8;
 				INFOPLIST_FILE = "Search Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.Search-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3EZN9G7JS8;
 				INFOPLIST_FILE = "Search Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.flatstack.Search-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +310,7 @@
 				A4165FB01DE8508600EE242A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
